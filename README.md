@@ -1,21 +1,18 @@
 # DRACO: Dynamic Response and Command Optimization
----
 
 ![Screenshot_20240812_222541](https://github.com/user-attachments/assets/559f0d78-1cda-40f4-846c-cbc77ded752a)
 
----
+
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/SATUNIX/DRACO)
 ![Code Style](https://img.shields.io/badge/code%20style-gofmt-blue)
 ![Build Status](https://img.shields.io/github/actions/workflow/status/SATUNIX/DRACO/build.yml)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 ![Issues](https://img.shields.io/github/issues/SATUNIX/DRACO)
-![Pull Requests](https://img.shields.io/github/issues-pr/{username}/{repository})
+![Pull Requests](https://img.shields.io/github/issues-pr/SATUNIX/DRACO)
 ![Contributors Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
-
-
-
+---
 
 **Dynamic Response:**
 - Highly-adaptable suggestions.
