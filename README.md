@@ -139,6 +139,8 @@ Cool Blues (Tech Minimalist)
 
 ```
 
+---
+
 ### USE CASE EXAMPLE
 
 **1. Menu Page** 
