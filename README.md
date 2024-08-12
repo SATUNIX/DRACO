@@ -139,6 +139,16 @@ Cool Blues (Tech Minimalist)
 
 ```
 
+### USE CASE EXAMPLE
+
+**1. Menu Page** 
+![image](https://github.com/user-attachments/assets/f2dec762-3651-46d6-b7c0-b1e48d14cb47)
+
+**2. Command parameter listing** 
+![image](https://github.com/user-attachments/assets/f52c1db2-5b66-45fa-85d8-b551633923fd)
+
+
+
 ### License = GPLv3
 
 See the LICENSE file for details.
