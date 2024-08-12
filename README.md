@@ -1,17 +1,28 @@
-# DRACO
+# DRACO: Dynamic Response and Command Optimization
 
-## Linux Helper and Repetition Eliminator
+**Dynamic Response:**
+- Highly-adaptable suggestions.
+- Fits 99.9% of use cases within repetition filled linux workflows. 
 
-You repeating yourself in the terminal? Speed things up with this handy menu :)
-This is als ooptimised for augmented reality with wide screens, minimal inputs etc. Plug in your XR device and have at it.
+**Command Optimization:**
+- Streamlined menu system for quick access to common commands.
+- Reduces repetitive typing, enhancing efficiency.
 
-### FILE STRUCT:
+**AR/XR Integration:**
+- Optimized for wide screens and minimal inputs.
+- Seamless use with augmented and extended reality devices.
+- Built with AR in mind, large viewing angle through the UI, minimal key inputs. 
 
+**Flexible Configuration:**
+- Easily customizable via config.json.
+- Auto-generates logs in /usr/var/logs/draco* (modifiable path).
 
-File structure index of the go files etc etc, place your config.json at the projects root, Run the program with root perms to create a logging directory in /usr/var/logs/draco* "Very Different I know!"
-Oh well change it if you dont like it this is where im putting it for now :)
+# Strategic Project Setup and Deployment
+- Our project structure is designed with clarity and scalability in mind. Simply place your config.json at the root of the project to get started. Run the program with root permissions to auto-generate a logging directory at /usr/var/logs/draco*. While this location is unique it is chosen for optimal system integration (randomly typed as i was coding), customization is at your fingertips—adjust it as needed to fit your environment.
+
 
 Anyway file structure looks like this for the project:
+
 ```
 draco/
 ├── cmd/
@@ -31,7 +42,7 @@ draco/
 1. git clone this repository
 2. go mod tidy
 3. go build -o draco ./cmd/main.go
-4. binary should be created for you, move this to /usr/bin as usual if you want it accross the system. Or keep it there idk. Im not your mother.
+4. binary should be created for you, move this to /usr/bin as usual if you want it accross the system. 
 
 Note: Minimal dependencies should be needed, the program needs to be ran as root to ensure commands in there are executed + the location of the log files, chown it if you want.
 
