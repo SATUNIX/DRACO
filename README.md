@@ -6,7 +6,7 @@
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/SATUNIX/DRACO)
 ![Code Style](https://img.shields.io/badge/code%20style-gofmt-blue)
-![Build Status](https://img.shields.io/github/actions/workflow/status/SATUNIX/DRACO/build.yml) 
+![Build Status](https://img.shields.io/github/actions/workflow/status/SATUNIX/DRACO/.github/workflows/go.yml) 
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 ![Issues](https://img.shields.io/github/issues/SATUNIX/DRACO)
 ![Pull Requests](https://img.shields.io/github/issues-pr/SATUNIX/DRACO)
